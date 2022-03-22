@@ -1,0 +1,17 @@
+version: '1'
+entity_types:
+  GEFFolder:
+    has_designer: false
+    show_properties: false
+  GEF:
+    has_designer: true
+    show_properties: true
+
+entities:
+- entity_type: GEFFolder
+  properties:
+    name: GEF Files Folder
+
+# Meta data
+metadata:
+  background_image: background_image.jpg
